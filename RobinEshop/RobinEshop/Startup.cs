@@ -5,9 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using RobinEshop.Models;
 
 namespace RobinEshop
 {
@@ -24,6 +27,13 @@ namespace RobinEshop
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            // replace "YourDbContext" with the class name of your DbContext
+            services.AddDbContextPool<EshopDbContext>(options => options
+                // replace with your connection string
+                .UseMySql("Server=localhost;Database=RobinEshop;User=root;Password=;", mySqlOptions => mySqlOptions
+                    // replace with your Server Version and Type
+                    .ServerVersion(new Version(10, 4, 11), ServerType.MariaDb)
+                ));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
