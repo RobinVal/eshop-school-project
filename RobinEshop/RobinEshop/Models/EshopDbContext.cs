@@ -7,7 +7,7 @@ namespace RobinEshop.Models
     {
         public EshopDbContext(DbContextOptions<EshopDbContext> options) : base(options)
         {
-            
+            Database.EnsureCreated();
         }
     }
 }
