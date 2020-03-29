@@ -7,8 +7,9 @@ namespace RobinEshop.Models
     {
         [Key]
         public int OrderHasProductId { get; set; }
-        [ForeignKey("OrderId")]
+        public int OrderId { get; set; }
         public Order Order { get; set; }
+        [Required]
         public int Number { get; set; }
         public int PriceTotal { get; set; }
     }

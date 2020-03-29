@@ -30,7 +30,7 @@ namespace RobinEshop
             // replace "YourDbContext" with the class name of your DbContext
             services.AddDbContextPool<EshopDbContext>(options => options
                 // replace with your connection string
-                .UseMySql("Server=localhost;Database=RobinEshop;User=root;Password=;", mySqlOptions => mySqlOptions
+                .UseMySql("Server=localhost;Database=robineshop;User=root;Password=;", mySqlOptions => mySqlOptions
                     // replace with your Server Version and Type
                     .ServerVersion(new Version(10, 4, 11), ServerType.MariaDb)
                 ));

@@ -20,5 +20,7 @@ namespace RobinEshop.Models
         public string Country { get; set; }
         [Required]
         public string ZipCode { get; set; }
+
+        public User User { get; set; }
     }
 }

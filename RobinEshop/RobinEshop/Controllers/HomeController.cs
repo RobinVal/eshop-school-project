@@ -11,11 +11,11 @@ namespace RobinEshop.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private EshopDbContext _dbContext;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(EshopDbContext dbContext)
         {
-            _logger = logger;
+            _dbContext = dbContext;
         }
 
         public IActionResult Index()

@@ -7,7 +7,7 @@ namespace RobinEshop.Models
     {
     [Key]
     public int TagId { get; set; }
-    [ForeignKey("ProductId")] 
+    public int ProductId { get; set; }
     public Product Product { get; set; }
     [Required]
     public string Name { get; set; }

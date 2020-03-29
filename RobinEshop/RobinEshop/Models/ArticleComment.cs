@@ -7,9 +7,9 @@ namespace RobinEshop.Models
     {
         [Key]
         public int ArticleCommentId { get; set; }
-        [ForeignKey("ArticleID")]
+        public int ArticleId { get; set; }
         public Article Article { get; set; }
-        [ForeignKey("UserId")]
+        public int UserId { get; set; }
         public User User { get; set; }
         public string Content { get; set; }
     }

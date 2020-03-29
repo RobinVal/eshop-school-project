@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -8,9 +9,9 @@ namespace RobinEshop.Models
     {
         [Key]
         public int ProductId { get; set; }
-        [ForeignKey("CategoryId")]
+        public int CategoryId { get; set; }
         public Category Category { get; set; }
-        [ForeignKey("SellerID")]
+        public int SellerId { get; set; }
         public Seller Seller { get; set; }
         [Required]
         public string Name { get; set; }    
@@ -19,9 +20,13 @@ namespace RobinEshop.Models
         [Required]
         public int Number { get; set; }    
         [Required]
-        public int Price { get; set; }     
-        public int Sale { get; set; }
+        public double Price { get; set; }     
+        public double Sale { get; set; }
         [Required]
         public DateTime CreatedAt { get; set; }
+        
+        public ICollection<Tag> Tags { get; set; }
+        public ICollection<Review> Reviews { get; set; }
+        public ICollection<ProductImage> Images { get; set; }
     }
 }

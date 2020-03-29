@@ -7,8 +7,9 @@ namespace RobinEshop.Models
     {
     [Key]
     public int ProductImageId { get; set; }
-    [ForeignKey("ProductId")]
+    public int ProductId { get; set; }
     public Product Product { get; set; }
+    [Required]
     public string Image { get; set; }
     }
 }
