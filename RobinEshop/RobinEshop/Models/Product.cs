@@ -20,8 +20,10 @@ namespace RobinEshop.Models
         [Required]
         public int Number { get; set; }    
         [Required]
-        public double Price { get; set; }     
-        public double Sale { get; set; }
+        [Column(TypeName = "decimal(13,2)")]
+        public decimal Price { get; set; }     
+        [Column(TypeName = "decimal(13,2)")]
+        public decimal Sale { get; set; }
         [Required]
         public DateTime CreatedAt { get; set; }
         

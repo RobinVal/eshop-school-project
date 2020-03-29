@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RobinEshop.Models
@@ -12,5 +13,6 @@ namespace RobinEshop.Models
         public int UserId { get; set; }
         public User User { get; set; }
         public string Content { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }
