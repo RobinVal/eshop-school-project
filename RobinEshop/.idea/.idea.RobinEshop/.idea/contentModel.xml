@@ -12,6 +12,7 @@
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
         </e>
+        <e p="homepage.png" t="Include" />
         <e p="Models" t="Include">
           <e p="Article.cs" t="Include" />
           <e p="ArticleComment.cs" t="Include" />
@@ -56,9 +57,21 @@
         </e>
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
+            <e p="all.min.css" t="Include" />
             <e p="site.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
+          <e p="Images" t="Include">
+            <e p="1_small_83c60fc9-4624-4d46-9103-6967f68ff012_small.png" t="Include" />
+            <e p="2_small_bed5b63f-5c6e-427e-aaa3-d60d4383a96c_small.png" t="Include" />
+            <e p="3_small_71dafa26-03c4-4b25-84d1-a94a50a20d05_small.png" t="Include" />
+            <e p="banner-1.png" t="Include" />
+            <e p="banner-2.png" t="Include" />
+            <e p="debra-logo-w_300x.png" t="Include" />
+            <e p="debra-logo.png" t="Include" />
+            <e p="home-1-slider-1.png" t="Include" />
+            <e p="home-1-slider-2.png" t="Include" />
+          </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
           </e>
@@ -114,6 +127,23 @@
               <e p="jquery.validate.unobtrusive.min.js" t="Include" />
               <e p="LICENSE.txt" t="Include" />
             </e>
+          </e>
+          <e p="webfonts" t="Include">
+            <e p="fa-brands-400.eot" t="Include" />
+            <e p="fa-brands-400.svg" t="Include" />
+            <e p="fa-brands-400.ttf" t="Include" />
+            <e p="fa-brands-400.woff" t="Include" />
+            <e p="fa-brands-400.woff2" t="Include" />
+            <e p="fa-regular-400.eot" t="Include" />
+            <e p="fa-regular-400.svg" t="Include" />
+            <e p="fa-regular-400.ttf" t="Include" />
+            <e p="fa-regular-400.woff" t="Include" />
+            <e p="fa-regular-400.woff2" t="Include" />
+            <e p="fa-solid-900.eot" t="Include" />
+            <e p="fa-solid-900.svg" t="Include" />
+            <e p="fa-solid-900.ttf" t="Include" />
+            <e p="fa-solid-900.woff" t="Include" />
+            <e p="fa-solid-900.woff2" t="Include" />
           </e>
         </e>
       </e>

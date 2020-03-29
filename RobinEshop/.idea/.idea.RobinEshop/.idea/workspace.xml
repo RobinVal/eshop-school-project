@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/RobinEshop/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RobinEshop/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RobinEshop/Models/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RobinEshop/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RobinEshop/Models/Seller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RobinEshop/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RobinEshop/Models/ProductImage.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,6 +29,8 @@
     <setting file="file://$PROJECT_DIR$/RobinEshop/Models/OrderHasProduct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RobinEshop/Models/Article.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RobinEshop/Models/ArticleComment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RobinEshop/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RobinEshop/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,12 +49,13 @@
         <option value="$PROJECT_DIR$/RobinEshop/Models/UserDetail.cs" />
         <option value="$PROJECT_DIR$/RobinEshop/Models/User.cs" />
         <option value="$PROJECT_DIR$/RobinEshop/RobinEshop.csproj" />
-        <option value="$PROJECT_DIR$/RobinEshop/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/RobinEshop/Models/Product.cs" />
         <option value="$PROJECT_DIR$/RobinEshop/Models/ArticleComment.cs" />
         <option value="$PROJECT_DIR$/RobinEshop/Models/Order.cs" />
         <option value="$PROJECT_DIR$/RobinEshop/Models/OrderHasProduct.cs" />
         <option value="$PROJECT_DIR$/RobinEshop/Models/EshopDbContext.cs" />
+        <option value="$PROJECT_DIR$/RobinEshop/wwwroot/css/site.css" />
+        <option value="$PROJECT_DIR$/RobinEshop/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
@@ -67,6 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.RobinEshop">
     <configuration name="RobinEshop" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -111,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585406107582</updated>
       <workItem from="1585406110341" duration="20740000" />
-      <workItem from="1585479078472" duration="10358000" />
+      <workItem from="1585479078472" duration="16287000" />
     </task>
     <servers />
   </component>
@@ -138,29 +143,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585406180764" />
-    <state width="802" height="282" key="GridCell.Tab.0.bottom" timestamp="1585495295753">
+    <state width="455" height="282" key="GridCell.Tab.0.bottom" timestamp="1585520221447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="802" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585495295753" />
-    <state width="802" height="282" key="GridCell.Tab.0.center" timestamp="1585495295753">
+    <state width="455" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585520221447" />
+    <state width="455" height="282" key="GridCell.Tab.0.center" timestamp="1585520221446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="802" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585495295753" />
-    <state width="802" height="282" key="GridCell.Tab.0.left" timestamp="1585495295753">
+    <state width="455" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585520221446" />
+    <state width="455" height="282" key="GridCell.Tab.0.left" timestamp="1585520221446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="802" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585495295753" />
-    <state width="802" height="282" key="GridCell.Tab.0.right" timestamp="1585495295753">
+    <state width="455" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585520221446" />
+    <state width="455" height="282" key="GridCell.Tab.0.right" timestamp="1585520221446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="802" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585495295753" />
+    <state width="455" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585520221446" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1585412034445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585412034445" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585427992264">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585519260742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585427992264" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585519260742" />
   </component>
 </project>
