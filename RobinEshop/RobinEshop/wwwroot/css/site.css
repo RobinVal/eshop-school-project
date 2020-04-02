@@ -3,6 +3,7 @@
 /*  cerna barva 4C3333  */
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 header {
     font-size: 14px;
@@ -21,4 +22,16 @@ header {
 .header-account {
     padding: 10px;
     text-align: center;
+    
+}
+
+.header-cart {
+    color: white;
+    border: solid;
+    border-radius: 1px;
+    
+}
+.center-img {
+    display: flex;
+justify-content: center;
 }
