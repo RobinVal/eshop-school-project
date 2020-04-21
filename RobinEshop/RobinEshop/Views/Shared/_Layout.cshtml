@@ -1,46 +1,82 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>@ViewData["Title"] - RobinEshop</title>
-    
+
     <link rel="stylesheet" href="~/css/all.min.css">
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/site.css"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-   
+
 <header>
-    <div class="alfa">
+    @*<div class="alfa">
         <div class="header-follow">
+
             
-            Follow Us:
-            <div> <i class="fab fa-facebook-f"> </i></div>
-            <div> <i class="fab fa-twitter"> </i></div>
-            <div> <i class="fab fa-google-plus"> </i></div>
-            <div> <i class="fab fa-instagram"> </i></div>
-            <div> <i class="fab fa-youtube"> </i></div>
+        </div>*@
+
+    <div class="container-fluid   ">
+        <div class="row">
+            <div class="col-12 col-sm-6 text-center text-sm-left header-follow border-bottom border-white">
+                Follow Us:
+
+                <i class="fab fa-facebook-f"> </i>
+
+
+                <i class="fab fa-twitter"> </i>
+
+                <i class="fab fa-google-plus"> </i>
+
+                <i class="fab fa-instagram"> </i>
+
+                <i class="fab fa-youtube"> </i>
+
+            </div>
+            <div class="col-12 col-sm-6 text-center text-sm-right border-bottom border-white">
+                My Account <i class="fas fa-angle-down"> </i>
+            </div>
         </div>
-        <hr>
-        <div class="header-account">
-            <div> My Account <i class="fas fa-angle-down"> </i> | USD <i class="fas fa-angle-down"> </i>  |  <a class="header-cart" href=""><i class="fas fa-shopping-cart"> </i> </a>     </div>
-        </div>
-    </div>
-    <div class="center-img">
-    <img src="Images/debra-logo-w_300x.png" alt="">
-    </div>
-</header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        
-    </footer>
-    
-    @RenderSection("Scripts", required: false)
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="Images/debra-logo-w_300x.png" alt="">
+            </div>
+            <div>
+                <div class="col shopping-cart-border">
+                    <i class="fas fa-shopping-cart"> </i> <span class="inline-block"> 0</span>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    @*My Account <i class="fas fa-angle-down"> </i> |
+                <div >
+                    <i class="fas fa-shopping-cart"> </i>*@
+
+
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="border-top footer text-muted">
+
+</footer>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+
+@RenderSection("Scripts", required: false)
 </body>
 </html>

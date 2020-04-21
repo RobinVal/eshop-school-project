@@ -10,28 +10,42 @@ header {
     background: #FF9999 ;
     color: #ffffff;
 }
-.alfa {
-    
+.header-top {
+    border-bottom: 1px solid;
+    border-bottom-color: white;
 }
 .header-follow {
-    display: flex;
-    justify-content: space-around;
     padding: 10px;
-    
+    border-bottom: 1px solid;
+    border-bottom-color: white;
 }
 .header-account {
     padding: 10px;
+    display: flex;
+    
+}
+.inline-block{
+    display: inline-block;
+    border-radius:  50%;
+    width: 25px;
+    height: 25px;
+    color: #FF9999;
+    background: white;
+    border: solid;
     text-align: center;
     
 }
 
-.header-cart {
-    color: white;
-    border: solid;
-    border-radius: 1px;
-    
-}
 .center-img {
     display: flex;
 justify-content: center;
+}
+
+.shopping-cart-border {
+    border-radius: 10%;
+    border: solid;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    border-width: 1px;
 }

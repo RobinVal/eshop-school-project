@@ -32,7 +32,7 @@ namespace RobinEshop.Models
             modelBuilder.Entity<Seller>().HasIndex(seller => seller.Name).IsUnique();
             modelBuilder.Entity<ProductImage>().HasIndex(productImage => productImage.Image).IsUnique();
             modelBuilder.Entity<Tag>().HasIndex(tag => tag.Name).IsUnique();
-// Vzor -- public ICollection<ArticleComment> Comments { get; set; }
+
 
             modelBuilder.Entity<User>().HasMany(user => user.Articles).WithOne(article => article.User);
             modelBuilder.Entity<User>().HasMany(user => user.Reviews).WithOne(review => review.User);
