@@ -35,10 +35,13 @@ header {
     text-align: center;
     
 }
-
-.center-img {
-    display: flex;
-justify-content: center;
+.footer-color {
+    background: #fafafa;
+}
+.white {
+    color: white;
+    background-color: #FF9999;
+    background: #FF9999;
 }
 
 .shopping-cart-border {
@@ -48,4 +51,6 @@ justify-content: center;
     height: auto;
     justify-content: center;
     border-width: 1px;
+    margin-top: 5px;
+    padding: 0px;
 }

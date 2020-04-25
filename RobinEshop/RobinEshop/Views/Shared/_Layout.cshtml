@@ -42,19 +42,59 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between ">
+            <div class="text-left">
                 <img src="Images/debra-logo-w_300x.png" alt="">
             </div>
-            <div>
-                <div class="col shopping-cart-border">
-                    <i class="fas fa-shopping-cart"> </i> <span class="inline-block"> 0</span>
-                </div>
-                
+
+            <div class=" shopping-cart-border text-right">
+                <i class="fas fa-shopping-cart"> </i> <span class="inline-block"> 0</span>
             </div>
 
+
         </div>
+        <div >
+
+            <form class="form-inline d-flex ">
+
+                <input class="  form-control  white" type="search" placeholder="Search">
+
+
+            </form>
+        </div>
+
+    </div>
+    <div >
+        <nav class="navbar navbar-expand navbar-light bg-light">
+
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item active">
+
+                        <a class="nav-link" href="#">Home </a>
+
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Products </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Blog </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About </a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
     </div>
 
     @*My Account <i class="fas fa-angle-down"> </i> |
@@ -63,14 +103,47 @@
 
 
 </header>
+
 <div class="container">
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
 </div>
 
-<footer class="border-top footer text-muted">
-
+<footer class="footer-color" >
+    <div class="container ">
+        <div class="row">
+            <div class="col-12 col-xl-4">
+                <h5>Debra</h5>
+                <strong>Address:</strong> <br>
+                4710-4890 Breckinridge St, UK Burlington, VT 05401
+                
+                <strong>Need Help?</strong> <br>
+                Call: 1-800-345-6789
+                
+                <strong> Email:</strong> <br>
+                example@example.com
+            </div>
+            <div class="col-12 col-xl-2">
+                <h5>About us</h5>
+                About us <br>
+                Store location<br>
+                Contact<br>
+                Orders tracking
+            </div>
+            <div class="col-12 col-xl-2">
+                <h5>Useful Links</h5> 
+                Returns<br>
+                Support Policy<br>
+                Size guide<br>
+                FAQs
+            </div>
+            <div class="col-12 col-xl-4">
+                <h5>Lastest Blog</h5>
+            </div>
+        </div>
+    </div>
+    
 </footer>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
